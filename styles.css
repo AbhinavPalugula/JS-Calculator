@@ -1,20 +1,5 @@
 /* Google Fonts Inport */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-:root {
-  --shadow-color: 0deg 0% 0%;
-  --shadow-elevation-low: -0.3px -0.3px 0.6px hsl(var(--shadow-color) / 0.06),
-    -1.3px -1.2px 2.4px -1px hsl(var(--shadow-color) / 0.14);
-  --shadow-elevation-medium: -0.3px -0.3px 0.6px hsl(var(--shadow-color) / 0.06),
-    -2.1px -1.9px 3.8px -0.5px hsl(var(--shadow-color) / 0.11),
-    -6.6px -6.2px 12.2px -1px hsl(var(--shadow-color) / 0.16);
-  --shadow-elevation-high: -0.3px -0.3px 0.6px hsl(var(--shadow-color) / 0.05),
-    -3.6px -3.3px 6.6px -0.2px hsl(var(--shadow-color) / 0.08),
-    -6.9px -6.4px 12.6px -0.4px hsl(var(--shadow-color) / 0.1),
-    -11.7px -10.9px 21.5px -0.6px hsl(var(--shadow-color) / 0.12),
-    -19.5px -18.2px 35.8px -0.8px hsl(var(--shadow-color) / 0.15),
-    -31.9px -29.8px 58.6px -1px hsl(var(--shadow-color) / 0.17);
-}
 html {
   height: 100vh;
   display: flex;

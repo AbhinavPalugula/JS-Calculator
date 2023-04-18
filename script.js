@@ -15,3 +15,24 @@ for (let i = 0; i < button.length; i++) {
     }
   });
 }
+document.addEventListener("keypress", (evt) => {
+  if (evt.key == "1") {
+    document.querySelector("#user-display").innerHTML += "1";
+  } else if (evt.key == "2") {
+    document.querySelector("#user-display").innerHTML += "2";
+  } else if (evt.key == "3") {
+    document.querySelector("#user-display").innerHTML += "3";
+  } else if (evt.key == "4") {
+    document.querySelector("#user-display").innerHTML += "4";
+  } else if (evt.key == "5") {
+    document.querySelector("#user-display").innerHTML += "5";
+  } else if (evt.key == "6") {
+    document.querySelector("#user-display").innerHTML += "6";
+  } else if (evt.key == "7") {
+    document.querySelector("#user-display").innerHTML += "7";
+  } else if (evt.key == "8") {
+    document.querySelector("#user-display").innerHTML += "8";
+  } else if (evt.key == "9") {
+    document.querySelector("#user-display").innerHTML += "9";
+  }
+});
